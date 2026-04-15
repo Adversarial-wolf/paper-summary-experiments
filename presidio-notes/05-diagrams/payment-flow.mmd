@@ -1,0 +1,42 @@
+%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#e3f2fd', 'primaryBorderColor': '#1976d2', 'lineColor': '#0d47a1'}}}%%
+sequenceDiagram
+    title x402 Payment Flow: Standard vs. Hardened
+    
+    participant Agent as AI Agent
+    participant Server as 402 Payment Server
+    participant Middleware as HardenedX402Client
+    participant Facilitator as Facilitator API (Base L2)
+    participant Chain as On-Chain Settlement
+    
+    Note over Agent,Chain: 🔴 STANDARD FLOW (Vulnerable)
+    Agent->>Server: GET /resource
+    Server-->>Agent: 402 Payment Required + spec
+    Agent->>Agent: Sign EIP-712 token with<br/>resource_url, description, reason
+    Agent->>Server: Retry with X-Payment header<br/>⚠️ PII in plaintext
+    Server->>Facilitator: Forward payment token<br/>⚠️ PII in plaintext
+    Facilitator->>Chain: Settle USDC transfer
+    Chain-->>Facilitator: On-chain receipt
+    Facilitator-->>Server: Confirmation
+    Server-->>Agent: Serve resource
+    
+    Note over Agent,Chain: 🟢 HARDENED FLOW (Presidio)
+    Agent->>Server: GET /resource
+    Server-->>Agent: 402 Payment Required + spec
+    Agent->>Middleware: Construct payment token
+    Middleware->>Middleware: 1️⃣ PIIFilter: Scan & redact PII
+    Middleware->>Middleware: 2️⃣ PolicyEngine: Check spending limits
+    Middleware->>Middleware: 3️⃣ ReplayGuard: Check for duplicates
+    Middleware->>Middleware: 4️⃣ AuditLog: Emit structured event
+    alt All controls pass
+        Middleware->>Server: Retry with REDACTED X-Payment header
+        Server->>Facilitator: Forward redacted token
+        Facilitator->>Chain: Settle USDC transfer
+        Chain-->>Facilitator: Receipt
+        Facilitator-->>Server: Confirmation
+        Server-->>Agent: Serve resource
+    else Control fails
+        Middleware-->>Agent: Raise exception<br/>(PolicyViolation/ReplayDetected)
+        Agent->>Agent: Handle error / retry logic
+    end
+    
+    Note right of Middleware: ✅ PII never leaves trust boundary unredacted<br/>✅ Spending enforced pre-execution<br/>✅ Replay attacks blocked<br/>✅ Audit trail for compliance

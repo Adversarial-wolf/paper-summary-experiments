@@ -1,0 +1,30 @@
+%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#e8f5e9', 'primaryBorderColor': '#2e7d32', 'lineColor': '#1b5e20'}}}%%
+flowchart TB
+    subgraph Request["Incoming Payment Request"]
+        R1[resource_url]
+        R2[description]
+        R3[reason]
+        R4[amount, timestamp]
+    end
+    
+    subgraph Controls["HardenedX402Client Pipeline"]
+        direction LR
+        PII[PIIFilter<br/>• Presidio analyzer<br/>• Regex + NLP<br/>• Redact with placeholder]
+        POL[PolicyEngine<br/>• Spending limits<br/>• Domain whitelisting<br/>• Fail-safe blocking]
+        REP[ReplayGuard<br/>• HMAC-SHA256 fingerprint<br/>• TTL-bounded store<br/>• Duplicate detection]
+        AUD[AuditLog<br/>• JSON-L structured events<br/>• HMAC chain integrity<br/>• SIEM forwarding]
+        
+        PII --> POL --> REP --> AUD
+    end
+    
+    subgraph Output["Outbound Token"]
+        O1[Redacted metadata]
+        O2[Signed EIP-712 token]
+        O3[Audit event emitted]
+    end
+    
+    Request --> PII
+    AUD --> Output
+    
+    classDef control fill:#c8e6c9,stroke:#2e7d32,stroke-width:2px;
+    class PII,POL,REP,AUD control;

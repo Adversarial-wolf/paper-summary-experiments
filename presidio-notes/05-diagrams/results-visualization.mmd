@@ -1,0 +1,19 @@
+%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#fff3e0', 'primaryBorderColor': '#ef6c00', 'lineColor': '#e65100'}}}%%
+xychart-beta
+    title "PII Detection Performance: Regex vs. NLP (min_score=0.4)"
+    x-axis ["EMAIL", "PERSON", "SSN", "IBAN", "PHONE", "CC", "Micro-Avg"]
+    y-axis "F1 Score" 0 --> 1.0
+    bar "Regex" [1.000, 0.000, 1.000, 1.000, 0.877, 1.000, 0.769]
+    bar "NLP" [1.000, 0.682, 0.957, 1.000, 1.000, 1.000, 0.894]
+    
+---
+xychart-beta
+    title "Latency vs. Recall Tradeoff"
+    x-axis ["Regex", "NLP"]
+    y-axis-left "p99 Latency (ms)" 0 --> 10
+    y-axis-right "Micro Recall" 0 --> 1.0
+    bar "Latency" [0.02, 5.73]
+    line "Recall" [0.625, 0.827]
+    
+    note for bar "NLP adds 5.71ms"
+    note for line "NLP adds +20.2pp recall"
