@@ -2,3 +2,5 @@
 .pyc
 PII-Data-Hardening/PII Data Hardening/src/__pycache__/*
 notes.py
+.DS_Store
+PII-Data-Hardening/.DS_Store
