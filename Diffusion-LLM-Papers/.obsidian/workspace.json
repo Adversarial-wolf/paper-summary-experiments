@@ -1,0 +1,190 @@
+{
+  "main": {
+    "id": "1286ad96a644cc02",
+    "type": "split",
+    "children": [
+      {
+        "id": "a864825bcf211d2c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9240c23077492b3b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "KnowledgeGraph/Foundation Model/Dream_7B/Dream_7B.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Dream_7B"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "695d1f9fb444114d",
+    "type": "split",
+    "children": [
+      {
+        "id": "d0d01c935039b332",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "36508c133c85e7a3",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "e1588292f5887654",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "f0f4048b173351d9",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "156acdd356dfbb41",
+    "type": "split",
+    "children": [
+      {
+        "id": "7ff751dbd30b0a99",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "54988d255038e6dc",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "KnowledgeGraph/Foundation Model/Dream_7B/Dream_7B.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Dream_7B"
+            }
+          },
+          {
+            "id": "7fb3b02fcd4c2a43",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "KnowledgeGraph/Foundation Model/Dream_7B/Dream_7B.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Dream_7B"
+            }
+          },
+          {
+            "id": "454813b2bb407223",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "1de618a636d5e0af",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "5b6ef321bc3d8e5d",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "KnowledgeGraph/Foundation Model/Dream_7B/Dream_7B.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Dream_7B"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "9240c23077492b3b",
+  "lastOpenFiles": [
+    "KnowledgeGraph/Multimodal Model/LLaDA-V:_Large_Language_Diffusion_Models_with_Visual_Instruction_Tuning/LLaDA-V:_Large_Language_Diffusion_Models_with_Visual_Instruction_Tuning.md"
+  ]
+}

@@ -4,3 +4,5 @@ PII-Data-Hardening/PII Data Hardening/src/__pycache__/*
 notes.py
 .DS_Store
 PII-Data-Hardening/.DS_Store
+/Diffusion-LLM-Papers-generated/.obsidian
+/Diffusion-LLM-Papers/.agents

@@ -1,0 +1,32 @@
+[
+  {
+    "title": "Deep Unsupervised Learning using Nonequilibrium Thermodynamics",
+    "url": "https://arxiv.org/abs/1503.03585",
+    "category": "Theoretical Basis"
+  },
+  {
+    "title": "Structured Denoising Diffusion Models in Discrete State-Spaces",
+    "url": "https://arxiv.org/abs/2107.03006",
+    "category": "Theoretical Basis"
+  },
+  {
+    "title": "Discrete Diffusion Modeling by Estimating the Ratios of the Data Distribution",
+    "url": "https://arxiv.org/abs/2310.16834",
+    "category": "Theoretical Basis"
+  },
+  {
+    "title": "Your Absorbing Discrete Diffusion Secretly Models the Conditional Distributions of Clean Data",
+    "url": "https://arxiv.org/abs/2406.03736",
+    "category": "Theoretical Basis"
+  },
+  {
+    "title": "Simplified and Generalized Masked Diffusion for Discrete Data",
+    "url": "https://arxiv.org/abs/2406.04329",
+    "category": "Theoretical Basis"
+  },
+  {
+    "title": "Simple and Effective Masked Diffusion Language Models",
+    "url": "https://arxiv.org/abs/2406.07524",
+    "category": "Theoretical Basis"
+  }
+]

@@ -1,0 +1,222 @@
+[
+  {
+    "title": "Deep Unsupervised Learning using Nonequilibrium Thermodynamics",
+    "url": "https://arxiv.org/abs/1503.03585",
+    "category": "Theoretical Basis"
+  },
+  {
+    "title": "Structured Denoising Diffusion Models in Discrete State-Spaces",
+    "url": "https://arxiv.org/abs/2107.03006",
+    "category": "Theoretical Basis"
+  },
+  {
+    "title": "Discrete Diffusion Modeling by Estimating the Ratios of the Data Distribution",
+    "url": "https://arxiv.org/abs/2310.16834",
+    "category": "Theoretical Basis"
+  },
+  {
+    "title": "Your Absorbing Discrete Diffusion Secretly Models the Conditional Distributions of Clean Data",
+    "url": "https://arxiv.org/abs/2406.03736",
+    "category": "Theoretical Basis"
+  },
+  {
+    "title": "Simplified and Generalized Masked Diffusion for Discrete Data",
+    "url": "https://arxiv.org/abs/2406.04329",
+    "category": "Theoretical Basis"
+  },
+  {
+    "title": "Simple and Effective Masked Diffusion Language Models",
+    "url": "https://arxiv.org/abs/2406.07524",
+    "category": "Theoretical Basis"
+  },
+  {
+    "title": "LLaDA: Large Language Diffusion Models",
+    "url": "https://arxiv.org/abs/2502.09992",
+    "category": "Foundation Model"
+  },
+  {
+    "title": "Dream 7B",
+    "url": "https://hkunlp.github.io/blog/2025/dream/",
+    "category": "Foundation Model"
+  },
+  {
+    "title": "Seed Diffusion: A Large-Scale Diffusion Language Model with High-Speed Inference",
+    "url": "https://www.arxiv.org/abs/2508.02193",
+    "category": "Foundation Model"
+  },
+  {
+    "title": "LLaDA-V: Large Language Diffusion Models with Visual Instruction Tuning",
+    "url": "https://arxiv.org/abs/2505.16933",
+    "category": "Multimodal Model"
+  },
+  {
+    "title": "LaViDa: A Large Diffusion Language Model for Multimodal Understanding",
+    "url": "https://arxiv.org/abs/2505.16839",
+    "category": "Multimodal Model"
+  },
+  {
+    "title": "Dimple: Discrete Diffusion Multimodal Large Language Model with Parallel Decoding",
+    "url": "https://arxiv.org/abs/2505.16990",
+    "category": "Multimodal Model"
+  },
+  {
+    "title": "MMaDA: Multimodal Large Diffusion Language Models",
+    "url": "https://arxiv.org/abs/2505.15809",
+    "category": "Multimodal Model"
+  },
+  {
+    "title": "Whisfusion: Parallel ASR Decoding via a Diffusion Transformer",
+    "url": "https://arxiv.org/abs/2508.07048",
+    "category": "Multimodal Model"
+  },
+  {
+    "title": "dKV-Cache: The Cache for Diffusion Language Models",
+    "url": "https://arxiv.org/abs/2505.15781",
+    "category": "Fast Sampling"
+  },
+  {
+    "title": "dLLM-Cache: Accelerating Diffusion Large Language Models with Adaptive Caching",
+    "url": "https://github.com/maomaocun/dLLM-cache?tab=readme-ov-file",
+    "category": "Fast Sampling"
+  },
+  {
+    "title": "Accelerating Diffusion Language Model Inference via Efficient KV Caching and Guided Diffusion",
+    "url": "https://arxiv.org/pdf/2505.21467",
+    "category": "Fast Sampling"
+  },
+  {
+    "title": "Fast-dLLM: Training-free Acceleration of Diffusion LLM by Enabling KV Cache and Parallel Decoding",
+    "url": "https://nvlabs.github.io/Fast-dLLM/paper/fast_dllm.pdf",
+    "category": "Fast Sampling"
+  },
+  {
+    "title": "Esoteric Language Models",
+    "url": "https://arxiv.org/abs/2506.01928",
+    "category": "Fast Sampling"
+  },
+  {
+    "title": "Sparse-dLLM: Accelerating Diffusion LLMs with Dynamic Cache Eviction",
+    "url": "https://arxiv.org/abs/2508.02558",
+    "category": "Fast Sampling"
+  },
+  {
+    "title": "DPad: Efficient Diffusion Language Models with Suffix Dropout",
+    "url": "https://arxiv.org/abs/2508.14148",
+    "category": "Fast Sampling"
+  },
+  {
+    "title": "Dimple: Discrete Diffusion Multimodal Large Language Model with Parallel Decoding",
+    "url": "https://arxiv.org/abs/2505.16990",
+    "category": "Fast Sampling"
+  },
+  {
+    "title": "Variational Autoencoding Discrete Diffusion with Enhanced Dimensional Correlations Modeling",
+    "url": "https://arxiv.org/abs/2505.17384",
+    "category": "Fast Sampling"
+  },
+  {
+    "title": "Accelerating Diffusion Language Model Inference via Efficient KV Caching and Guided Diffusion",
+    "url": "https://arxiv.org/pdf/2505.21467",
+    "category": "Fast Sampling"
+  },
+  {
+    "title": "Fast-dLLM: Training-free Acceleration of Diffusion LLM by Enabling KV Cache and Parallel Decoding",
+    "url": "https://nvlabs.github.io/Fast-dLLM/paper/fast_dllm.pdf",
+    "category": "Fast Sampling"
+  },
+  {
+    "title": "Accelerated Sampling from Masked Diffusion Models via Entropy Bounded Unmasking",
+    "url": "https://arxiv.org/abs/2505.24857",
+    "category": "Fast Sampling"
+  },
+  {
+    "title": "Accelerating Diffusion LLMs via Adaptive Parallel Decoding",
+    "url": "https://arxiv.org/abs/2506.00413",
+    "category": "Fast Sampling"
+  },
+  {
+    "title": "Accelerating Diffusion Large Language Models with SlowFast Sampling: The Three Golden Principles",
+    "url": "https://arxiv.org/abs/2506.10848",
+    "category": "Fast Sampling"
+  },
+  {
+    "title": "Wide-In, Narrow-Out: Revokable Decoding for Efficient and Effective DLLMs",
+    "url": "https://arxiv.org/abs/2507.18578",
+    "category": "Fast Sampling"
+  },
+  {
+    "title": "DPad: Efficient Diffusion Language Models with Suffix Dropout",
+    "url": "https://arxiv.org/abs/2508.14148",
+    "category": "Fast Sampling"
+  },
+  {
+    "title": "d1: Scaling Reasoning in Diffusion Large Language Models via Reinforcement Learning",
+    "url": "https://arxiv.org/abs/2504.12216",
+    "category": "Reinforcement Learning"
+  },
+  {
+    "title": "Reinforcing the Diffusion Chain of Lateral Thought with Diffusion Language Models",
+    "url": "https://arxiv.org/abs/2505.10446",
+    "category": "Reinforcement Learning"
+  },
+  {
+    "title": "LLaDA 1.5: Variance-Reduced Preference Optimization for Large Language Diffusion Models",
+    "url": "https://arxiv.org/abs/2505.19223",
+    "category": "Reinforcement Learning"
+  },
+  {
+    "title": "DiffuCoder: Understanding and Improving Masked Diffusion Models for Code Generation",
+    "url": "https://arxiv.org/abs/2506.20639",
+    "category": "Reinforcement Learning"
+  },
+  {
+    "title": "MDPO: Overcoming the Training-Inference Divide of Masked Diffusion Language Models",
+    "url": "https://arxiv.org/pdf/2508.13148",
+    "category": "Reinforcement Learning"
+  },
+  {
+    "title": "Revolutionizing Reinforcement Learning Framework for Diffusion Large Language Models",
+    "url": "https://arxiv.org/pdf/2509.06949",
+    "category": "Reinforcement Learning"
+  },
+  {
+    "title": "Inpainting-Guided Policy Optimization for Diffusion Large Language Models",
+    "url": "https://arxiv.org/pdf/2509.10396",
+    "category": "Reinforcement Learning"
+  },
+  {
+    "title": "LongLLaDA: Unlocking Long Context Capabilities in Diffusion LLMs",
+    "url": "https://arxiv.org/abs/2506.14429",
+    "category": "Long Context"
+  },
+  {
+    "title": "Edit Flows: Flow Matching with Edit Operations",
+    "url": "https://arxiv.org/abs/2506.09018",
+    "category": "Variable Length"
+  },
+  {
+    "title": "DreamOn: Diffusion Language Models For Code Infilling Beyond Fixed-Size Canvas",
+    "url": "https://hkunlp.github.io/blog/2025/dreamon/",
+    "category": "Variable Length"
+  },
+  {
+    "title": "Beyond Fixed: Variable-Length Denoising for Diffusion Large Language Models",
+    "url": "https://arxiv.org/abs/2508.00819",
+    "category": "Variable Length"
+  },
+  {
+    "title": "Any-Order Flexible Length Masked Diffusion",
+    "url": "https://arxiv.org/pdf/2509.01025",
+    "category": "Variable Length"
+  },
+  {
+    "title": "Time Is a Feature: Exploiting Temporal Dynamics in Diffusion Language Models",
+    "url": "https://arxiv.org/abs/2508.09138",
+    "category": "Others"
+  },
+  {
+    "title": "Thinking Inside the Mask: In-Place Prompting in Diffusion LLMs",
+    "url": "https://arxiv.org/pdf/2508.10736",
+    "category": "Others"
+  }
+]
