@@ -6,3 +6,5 @@ notes.py
 PII-Data-Hardening/.DS_Store
 /Diffusion-LLM-Papers-generated/.obsidian
 /Diffusion-LLM-Papers/.agents
+*.zip
+/temp

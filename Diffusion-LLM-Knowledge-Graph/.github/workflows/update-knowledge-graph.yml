@@ -1,0 +1,55 @@
+name: 🔄 Update Knowledge Graph
+
+on:
+  workflow_dispatch:
+    inputs:
+      fetch_arxiv:
+        description: 'Fetch arXiv metadata'
+        required: false
+        default: 'true'
+        type: boolean
+  
+  schedule:
+    - cron: '0 9 * * 1'
+  
+  push:
+    paths:
+      - 'Diffusion.md'
+      - 'scripts/*.py'
+
+jobs:
+  update-knowledge-graph:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: 📥 Checkout Repository
+        uses: actions/checkout@v4
+      
+      - name: 🐍 Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+      
+      - name: 📦 Install Dependencies
+        run: |
+          pip install -r requirements.txt
+      
+      - name: 🔄 Run Incremental Update
+        run: |
+          python scripts/incremental_update.py Diffusion-LLM-Knowledge-Graph Diffusion.md
+      
+      - name: 📚 Fetch arXiv Metadata
+        if: github.event.inputs.fetch_arxiv == 'true'
+        run: |
+          python scripts/fetch_arxiv_metadata.py Diffusion-LLM-Knowledge-Graph
+      
+      - name: 🔧 Configure Git
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+      
+      - name: 📤 Commit and Push Changes
+        run: |
+          git add -A
+          git diff --staged --quiet || git commit -m "🤖 Auto-update: $(date '+%Y-%m-%d')" && git push
