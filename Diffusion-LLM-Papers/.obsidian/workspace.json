@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "KnowledgeGraph/SatML2026-paper/satml-2026-notes/sok/00-rag-privacy-diffused-explanation.md",
+                "file": "KnowledgeGraph/SatML2026-paper/satml-2026-notes/MINDMAP.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "00-rag-privacy-diffused-explanation"
+              "title": "MINDMAP"
             }
           }
         ]
@@ -185,11 +185,32 @@
   },
   "active": "9240c23077492b3b",
   "lastOpenFiles": [
+    "KnowledgeGraph/SatML2026-paper/satml-2026-notes/Satml2026-by-fox/SUMMARY.md",
+    "KnowledgeGraph/SatML2026-paper/satml-2026-notes/Satml2026-by-fox/README.md",
+    "KnowledgeGraph/SatML2026-paper/satml-2026-notes/Satml2026-by-fox/audience-explanations/compliance-officers.md",
+    "KnowledgeGraph/SatML2026-paper/satml-2026-notes/Satml2026-by-fox/mindmaps/main_mindmap.md",
+    "KnowledgeGraph/SatML2026-paper/satml-2026-notes/Satml2026-by-fox/audience-explanations/executives.md",
+    "KnowledgeGraph/SatML2026-paper/satml-2026-notes/arxiv-papers/scripts/fetch_saml2026_papers.py",
+    "KnowledgeGraph/SatML2026-paper/satml-2026-notes/arxiv-papers/COMPREHENSIVE_SUMMARY.md",
+    "KnowledgeGraph/SatML2026-paper/satml-2026-notes/arxiv-papers/papers/Certifiably_Robust_RAG_against_Retrieval_Corruption.md",
+    "KnowledgeGraph/SatML2026-paper/satml-2026-notes/arxiv-papers/papers/Privacy_Risks_in_Time_Series_Forecasting_User-_and_Record-Level_Membership_Inference.md",
+    "KnowledgeGraph/SatML2026-paper/satml-2026-notes/arxiv-papers/papers/Smudged_Fingerprints_A_Systematic_Evaluation_of_the_Robustness_of_AI_Image_Fingerprints.md",
+    "KnowledgeGraph/SatML2026-paper/satml-2026-notes/arxiv-papers/scripts/generate_paper_docs.py",
+    "KnowledgeGraph/SatML2026-paper/satml-2026-notes/arxiv-papers/README.md",
+    "KnowledgeGraph/SatML2026-paper/satml-2026-notes/arxiv-papers/scripts",
+    "KnowledgeGraph/SatML2026-paper/satml-2026-notes/arxiv-papers/papers",
+    "KnowledgeGraph/SatML2026-paper/satml-2026-notes/arxiv-papers/notes",
+    "KnowledgeGraph/SatML2026-paper/satml-2026-notes/arxiv-papers",
+    "KnowledgeGraph/SatML2026-paper/satml-2026-notes/arxiv-fetching",
+    "KnowledgeGraph/SatML2026-paper/satml-2026-notes/Satml2026-by-fox/audience-explanations/data-scientists.md",
+    "KnowledgeGraph/SatML2026-paper/satml-2026-notes/sok/00-rag-privacy-diffused-explanation.md",
+    "KnowledgeGraph/SatML2026-paper/satml-2026-notes/Satml2026-by-fox/diagrams/main_mindmap.mermaid",
+    "KnowledgeGraph/SatML2026-paper/satml-2026-notes/Satml2026-by-fox/downloads",
+    "KnowledgeGraph/SatML2026-paper/satml-2026-notes/Satml2026-by-fox/audience-explanations",
     "KnowledgeGraph/SatML2026-paper/satml-2026-notes/FINAL_MINDMAP.md",
     "KnowledgeGraph/SatML2026-paper/satml-2026-notes/FINAL_SUMMARY.md",
     "KnowledgeGraph/SatML2026-paper/satml-2026-notes/SUMMARY.md",
     "KnowledgeGraph/SatML2026-paper/satml-2026-notes/sok/rag-privacy.md",
-    "KnowledgeGraph/SatML2026-paper/satml-2026-notes/sok/00-rag-privacy-diffused-explanation.md",
     "KnowledgeGraph/SatML2026-paper/satml-2026-notes/sok/README.md",
     "KnowledgeGraph/SatML2026-paper/satml-2026-notes/research/time-series-privacy.md",
     "KnowledgeGraph/SatML2026-paper/satml-2026-notes/research/targeting-alignment.md",
@@ -199,29 +220,7 @@
     "KnowledgeGraph/SatML2026-paper/summary.md",
     "KnowledgeGraph/SatML2026-paper/satml-2026-notes/research/deep-unlearning-llms.md",
     "KnowledgeGraph/SatML2026-paper/satml-2026-notes/research/efficient-dp-sgd.md",
-    "KnowledgeGraph/SatML2026-paper/satml-2026-notes/research/clevel-genai.md",
-    "KnowledgeGraph/SatML2026-paper/satml-2026-notes/research/00-prompt-injection-design-diffused-explanation.md",
-    "KnowledgeGraph/SatML2026-paper/satml-2026-notes/MINDMAP.md",
-    "KnowledgeGraph/SatML2026-paper/satml-2026-notes/README.md",
-    "KnowledgeGraph/SatML2026-paper/satml-2026-notes/research/fedspy-llm.md",
-    "KnowledgeGraph/SatML2026-paper/satml-2026-notes/COMPREHENSIVE_DEEPDIVE.md",
-    "KnowledgeGraph/SatML2026-paper/Training Set Reconstruction from Differentially Private Forests/code/DRAFT-DP/data/transaction_data.csv",
-    "KnowledgeGraph/SatML2026-paper/Training Set Reconstruction from Differentially Private Forests/code/DRAFT-DP/tables/paper_formatting/table_sklearn_perfs.tgn",
-    "KnowledgeGraph/SatML2026-paper/Training Set Reconstruction from Differentially Private Forests/code/DRAFT-DP/tables/paper_formatting/scalability_tab_default_credit.tgn",
-    "KnowledgeGraph/SatML2026-paper/Training Set Reconstruction from Differentially Private Forests/code/DRAFT-DP/tables/paper_formatting/scalability_tab_compas.tgn",
-    "KnowledgeGraph/SatML2026-paper/Training Set Reconstruction from Differentially Private Forests/code/DRAFT-DP/tables/paper_formatting/scalability_tab_adult.tgn",
-    "KnowledgeGraph/SatML2026-paper/Training Set Reconstruction from Differentially Private Forests/code/DRAFT-DP/tables/paper_formatting/individual_reconstr_table_default.tgn",
-    "KnowledgeGraph/SatML2026-paper/Training Set Reconstruction from Differentially Private Forests/code/DRAFT-DP/tables/paper_formatting/individual_reconstr_table_compas.tgn",
-    "KnowledgeGraph/SatML2026-paper/Training Set Reconstruction from Differentially Private Forests/code/DRAFT-DP/tables/paper_formatting/individual_reconstr_table_adult.tgn",
-    "KnowledgeGraph/SatML2026-paper/Training Set Reconstruction from Differentially Private Forests/code/DRAFT-DP/experiments_results/Results_main_paper/make_summary_files.py",
-    "KnowledgeGraph/SatML2026-paper/Training Set Reconstruction from Differentially Private Forests/code/DRAFT-DP/experiments_results/Results_main_paper/N_fixed_default_credit_results.json",
     "KnowledgeGraph/SatML2026-paper/Training Set Reconstruction from Differentially Private Forests/code/DRAFT-DP/figures/tree_example_informed_adversary_balle.png",
-    "KnowledgeGraph/SatML2026-paper/Training Set Reconstruction from Differentially Private Forests/code/DRAFT-DP/README.md",
-    "KnowledgeGraph/SatML2026-paper/Training Set Reconstruction from Differentially Private Forests/code/DRAFT-DP-main/figures/tree_example_informed_adversary_balle.png",
-    "KnowledgeGraph/SatML2026-paper/Training Set Reconstruction from Differentially Private Forests/code/DRAFT-DP-main/README.md",
-    "KnowledgeGraph/SatML2026-paper/Training Set Reconstruction from Differentially Private Forests/dp-forest-notes/01-paper-summary/README.md",
-    "KnowledgeGraph/SatML2026-paper/Training Set Reconstruction from Differentially Private Forests/dp-forest-notes/analogies/README.md",
-    "KnowledgeGraph/SatML2026-paper/Training Set Reconstruction from Differentially Private Forests/dp-forest-notes/mitigations/README.md",
-    "KnowledgeGraph/SatML2026-paper/Training Set Reconstruction from Differentially Private Forests/dp-forest-notes/audience/executives.md"
+    "KnowledgeGraph/SatML2026-paper/Training Set Reconstruction from Differentially Private Forests/code/DRAFT-DP-main/figures/tree_example_informed_adversary_balle.png"
   ]
 }
