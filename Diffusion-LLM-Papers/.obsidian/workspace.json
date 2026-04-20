@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "KnowledgeGraph/Theoretical Basis/Discrete_Diffusion_Modeling_by_Estimating_the_Ratios_of_the_Data_Distribution/Discrete_Diffusion_Modeling_by_Estimating_the_Ratios_of_the_Data_Distribution.md",
+                "file": "KnowledgeGraph/SatML2026-paper/summary.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Discrete_Diffusion_Modeling_by_Estimating_the_Ratios_of_the_Data_Distribution"
+              "title": "summary"
             }
           }
         ]
@@ -185,11 +185,21 @@
   },
   "active": "9240c23077492b3b",
   "lastOpenFiles": [
+    "KnowledgeGraph/SatML2026-paper/Plan-Implementation-Observations.md",
+    "KnowledgeGraph/SatML2026-paper/summary.md",
+    "KnowledgeGraph/SatML2026-paper/satml-2026-notes/research/robust-rag.md",
+    "KnowledgeGraph/SatML2026-paper/satml-2026-notes/research/clevel-genai.md",
+    "KnowledgeGraph/SatML2026-paper/satml-2026-notes/research/00-robust-rag-diffused-explanation.md",
+    "KnowledgeGraph/SatML2026-paper/satml-2026-notes/research/00-smudged-fingerprints-diffused-explanation.md",
+    "KnowledgeGraph/SatML2026-paper/satml-2026-notes/research/00-prompt-injection-design-diffused-explanation.md",
+    "KnowledgeGraph/SatML2026-paper/satml-2026-notes/research/00-clevel-genai-diffused-explanation.md",
+    "KnowledgeGraph/Theoretical Basis/Discrete_Diffusion_Modeling_by_Estimating_the_Ratios_of_the_Data_Distribution/Discrete_Diffusion_Modeling_by_Estimating_the_Ratios_of_the_Data_Distribution.md",
+    "KnowledgeGraph/SatML2026-paper/core/generate_notes.py",
+    "KnowledgeGraph/SatML2026-paper/core",
+    "KnowledgeGraph/SatML2026-paper/satml-2026-notes/sok/00-rag-privacy-diffused-explanation.md",
     "KnowledgeGraph/SatML2026-paper/satml-2026-notes/sok/rag-privacy.md",
     "KnowledgeGraph/SatML2026-paper/satml-2026-notes/research/smudged-fingerprints.md",
-    "KnowledgeGraph/SatML2026-paper/satml-2026-notes/research/robust-rag.md",
     "KnowledgeGraph/SatML2026-paper/satml-2026-notes/research/prompt-injection-design.md",
-    "KnowledgeGraph/SatML2026-paper/satml-2026-notes/research/clevel-genai.md",
     "KnowledgeGraph/Foundation Model/Dream_7B/Dream_7B.md",
     "KnowledgeGraph/Multimodal Model/LLaDA-V:_Large_Language_Diffusion_Models_with_Visual_Instruction_Tuning/LLaDA-V:_Large_Language_Diffusion_Models_with_Visual_Instruction_Tuning.md"
   ]
