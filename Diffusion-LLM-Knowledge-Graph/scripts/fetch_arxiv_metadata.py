@@ -116,7 +116,7 @@ class ArXivFetcher:
 
 ## 📚 Citation
 ```bibtex
-@article{{{metadata['arxiv_id'].replace('.', '_')}},
+@article{{{metadata['arxiv_id'].replace('.', '_')},
   title={{{metadata['title']}}},
   author={{{authors_str}}},
   journal={{arXiv preprint arXiv:{metadata['arxiv_id']}}},
