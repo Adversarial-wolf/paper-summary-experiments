@@ -9,3 +9,4 @@ PII-Data-Hardening/.DS_Store
 *.zip
 /temp
 /Diffusion-LLM-Papers/KnowledgeGraph/SatML2026-paper/.agents
+Diffusion-LLM-Papers/KnowledgeGraph/SatML2026-paper/Training Set Reconstruction from Differentially Private Forests/code/DRAFT-DP/data/transaction_data.csv

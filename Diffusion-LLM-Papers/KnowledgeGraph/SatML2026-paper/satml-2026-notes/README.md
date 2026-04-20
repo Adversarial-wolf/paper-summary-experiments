@@ -19,3 +19,49 @@ Each paper is analyzed from three distinct perspectives:
 - ⚔️ **Attack**: Explores vulnerabilities.
 - 📊 **Analysis**: Systematic evaluation of existing methods.
 - ⚙️ **Optimization**: Improving efficiency/performance of secure ML.
+
+
+## Mindmap
+```mermaid
+
+mindmap
+  root((Research Papers))
+    Fingerprinting
+      Smudged Fingerprints
+      Are Robust LLM Fingerprints Adversarially Robust
+    Privacy Attacks
+      Time Series MIA
+      FedSpy-LLM
+      DP Forest Reconstruction
+      DeepLeak
+      Textual Sanitization Evaluation
+    LLM Security
+      Certifiably Robust RAG
+      Defeating Prompt Injections
+      Targeting Alignment Classifiers
+      BinaryShield
+      DataFilter
+    Robustness
+      Optimal Robust Recourse
+      Cascading Robustness Verification
+      RobustBlack
+      TEA Targeted Attacks
+    Federated Learning
+      FedSpy-LLM
+      Contribution Evaluation Fragility
+      CPCL with DP
+    Unlearning
+      Deep Unlearning in LLMs
+      Exact Unlearning via Model Merging
+      Gauss-Newton Unlearning
+      Oblivious ERT Unlearning
+    Physical/Systems Security
+      Kraken EM Side-Channel
+      Temporal Misalignment Attacks
+      CHAI Embodied AI Hijacking
+    Fairness & Explainability
+      Homophily-aware Fair GNN
+      DeepLeak Explanations
+      Near-OOD Detection
+
+```
